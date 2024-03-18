@@ -1,0 +1,147 @@
+.storypictureIcon {
+  position     : absolute;
+  top          : 40px;
+  left         : 650px;
+  width        : 353.6px;
+  height       : 625.7px;
+  object-fit   : cover;
+}
+
+.avatarIcon {
+  width        : 30px;
+  border-radius: 20px;
+  position     : relative;
+  height       : 30px;
+  overflow     : hidden;
+  flex-shrink  : 0;
+  object-fit   : cover;
+}
+
+.pageName {
+  position   : relative;
+  line-height: 22px;
+}
+
+.nameBar {
+  align-self     : stretch;
+  display        : flex;
+  flex-direction : row;
+  align-items    : center;
+  justify-content: flex-start;
+  gap            : 0 12px;
+}
+
+.more {
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.loremIpsumDolorContainer {
+  flex          : 1;
+  position      : relative;
+  letter-spacing: 0.5px;
+  line-height   : 120%;
+}
+
+.description {
+  align-self     : stretch;
+  display        : flex;
+  flex-direction : row;
+  align-items    : flex-start;
+  justify-content: flex-start;
+}
+
+.icon {
+  z-index: 10;
+  height: 250px;
+  color: white;
+display: flex;
+flex-direction: column;
+justify-content: space-around;
+}
+
+.audioBar {
+  align-self    : stretch;
+  flex-direction: row;
+  align-items   : center;
+  gap           : 0 12px;
+}
+
+.postContent {
+  position      :absolute;
+  width         : 100%;
+  right         : 530px;
+  bottom        : 136px;
+  left          : 520px;
+  flex-direction: column;
+  display: flex;
+bottom: 0 ;
+  padding: 10px 10px;
+  left: 0;
+  align-items   : flex-start;
+  text-align:justify ;
+}
+
+
+
+.heartIcon {
+  width : 23.6px;
+  height: 21px;
+}
+
+.div {
+  line-height: 22px;
+  font-weight: 600;
+}
+
+.iconHeart {
+  /* position       : absolute; */
+  top            : 683px;
+  left           : 896px;
+  width          : 28px;
+
+}
+
+.commentIcon {
+  width   : 21px;
+
+  height  : 21px;
+}
+
+.iconComment,
+.iconShare {
+
+  top            : 742px;
+  left           : 896px;
+  width          : 28px;
+
+}
+
+.iconShare {
+  top   : 801px;
+  height: 28px;
+}
+
+.iconAudio {
+
+  top       : 845px;
+  left      : 898px;
+  width     : 24px;
+  height    : 24px;
+  object-fit: contain;
+}
+
+
+.reels {
+  text-align: left;
+  color     : white;
+  width: 353.6px;
+  height: 625.7px;
+  border-radius: 20px;
+  position: relative;
+}
+.reelsContainer{
+margin: 20px auto;
+  width: 500px;
+  height: 625.7px ;
+  position: relative;
+}

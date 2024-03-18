@@ -1,0 +1,282 @@
+.nickName {
+    position: relative;
+    line-height: 24px;
+    text-transform: lowercase;
+    font-weight: 600;
+  }
+  .profileName {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+
+  }
+  .iconsarrow {
+    width: 20px;
+    position: relative;
+    height: 20px;
+    overflow: hidden;
+    flex-shrink: 0;
+    object-fit: contain;
+  }
+  .icon,
+  .profileNameParent {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .profileNameParent {
+    position: absolute;
+    top: 0;
+    left: calc(50% - 114.5px);
+  }
+  .headerText {
+    position: absolute;
+    top: 8px;
+    left: 0;
+    width: 229px;
+    height: 36px;
+  }
+  .iconsnewmessages {
+    width: 24px;
+    position: relative;
+    height: 24px;
+    overflow: hidden;
+    flex-shrink: 0;
+  }
+  .icon1 {
+    position: absolute;
+    top: 0;
+    right: 0;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .header2 {
+    width: 291px;
+    position: relative;
+    height: 45px;
+    border-bottom: 2px solid white;
+  }
+  .header1 {
+    width: 350px;
+    display: flex;
+    background-color: black;
+
+    justify-content: space-around;
+top:120px;
+left:10px;
+    box-sizing: border-box;
+    position: fixed;
+    z-index: 10;
+  }
+  .border1 {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+  }
+  .border {
+    width: 350px;
+    position: relative;
+    height: 1px;
+  }
+  .header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 11px 0;
+  }
+  .profilePicS {
+    width: 56px;
+    position: relative;
+    height: 56px;
+    overflow: hidden;
+    border-radius: 37px;
+    flex-shrink: 0;
+    margin: 0px 10px 20px 0px;
+  }
+  .profilePic {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .nickName {
+    position: relative;
+    line-height: 11px;
+    text-transform: lowercase;
+  }
+  .profileName1 {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .active1hAgo {
+    position: relative;
+    line-height: 40px;
+    color: rgb(166, 166, 166)
+  }
+  .time {
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .profile {
+    flex: 1;
+    overflow: hidden;
+    flex-direction: column;
+  }
+  .messageProfile,
+  .messenger,
+  .profile {
+    display: flex;
+    justify-content: center;
+  }
+  .messageProfile {
+    width: 350px;
+    flex-direction: row;
+    box-sizing: border-box;
+  }
+  .messenger {
+    position: absolute;
+    top: 60px;
+    left: 0;
+    flex-direction: column;
+    overflow: auto;
+  }
+
+  .left {
+    position: relative;
+    width: 400px;
+    border-right: 2px solid white;
+    box-sizing: border-box;
+    height: 81.9vh;
+    overflow: auto;
+    flex-shrink: 0;
+  }
+  .icon2 {
+    /* width: px;
+    height: 8px; */
+  }
+  .yourMessages {
+    position: relative;
+    line-height: 17px;
+  }
+  .header4 {
+    position: absolute;
+    top: 0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+  }
+  .header3 {
+    width: 100%;
+    position: relative;
+    height: 33px;
+    font-size: 40px;
+    display: flex;
+    align-items: center;
+  }
+  .text1 {
+    position: absolute;
+    top: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+  }
+  .text {
+    width: 535px;
+    position: relative;
+    height: 27px;
+    width: 100%;
+  }
+  .sendMessage {
+    position: relative;
+    background: linear-gradient(135deg, #6a0728, #662a38, #4d3275);
+    line-height: 35px;
+    width: 150px;
+    border-radius: 15px;
+    border: none;
+    font-weight: 600;
+    color: white;
+  }
+  .button1,
+  .sendMessageWrapper {
+    display: flex;
+    padding-top: 20px;
+    align-items: center;
+    justify-content: center;
+  }
+  .sendMessageWrapper {
+    flex-direction: row;
+  }
+  .button1 {
+    width: 100%;
+    position: absolute;
+    top: 0;
+    flex-direction: column;
+  }
+  .button {
+    width: 100%;
+    position: relative;
+    height: 62px;
+  }
+  .content2 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    width: 100%;
+  }
+  .content1 {
+    position: relative;
+    top: 150px;
+    left: 1px;
+    width: 100%;
+    
+  }
+  .right {
+    width: 1099px;
+    position: relative;
+    box-sizing: border-box;
+    background-color: #2c2c2ca6;
+    border-radius: 20px;
+    height: 81.9vh;
+    /* overflow: auto; */
+    flex-shrink: 0; 
+  }
+  .content {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    text-align: left;
+    color: white;
+  }
+  .rightBorder {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }

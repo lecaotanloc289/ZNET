@@ -1,0 +1,20 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.interface {
+    width: 100%;
+}
+
+.reels{
+    width: 100%;
+    min-height: 100vh;
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    column-gap: 20px;
+    background-color:rgb(0, 0, 0);
+    padding: 0px 10px;
+    position: relative;
+}

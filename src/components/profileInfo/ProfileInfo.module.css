@@ -1,0 +1,283 @@
+.userProfilebody {
+    width: 920px;
+    background-color:black;
+    height: 1080px;
+    overflow: hidden;
+    text-align: left;
+    position: relative;
+    top: 40px;
+  }
+  .profilePic {
+    width: 150px;
+    height: 150px;
+    display: flex;
+    position: relative;
+    border-radius: 150px;
+    overflow: hidden;
+  }
+  .nickName {
+    position: relative;
+    line-height: 32px;
+    font-size: 30px;
+  }
+  .editProfile {
+    position: relative;
+    width: 150px;
+    color: white;
+    line-height: 30px;
+    font-weight: 600;
+    background: linear-gradient(135deg, #6a0728, #662a38, #4d3275);
+    border-radius: 5px;
+    font-size: 15px;
+    border: none;
+    cursor: pointer;
+  }
+  .account {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 40px;
+    align-self: stretch;
+    flex-direction: row;
+  }
+  .posts {
+    position:relative;
+    line-height: 18px;
+  }
+  .viewer{
+    line-height: 18px;
+    font-weight: 700;
+    margin-right: 5px;
+  }
+  .tag {
+    width: 85%;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+    align-self: stretch;
+  }
+  .profileName1 {
+    align-self: stretch;
+    position: relative;
+    height: 24px;
+  }
+  .desc,
+  .header {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 27px;
+  }
+  .desc {
+    width: 613px;
+    flex-direction: column;
+    box-sizing: border-box;
+  }
+  .header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    flex-direction: row;
+  }
+  .avatarProfilePicIcon {
+    position: relative;
+    border-radius: 37px;
+    width: 77px;
+    height: 77px;
+  }
+  .avatarProfilePicIcon1 {
+    position: relative;
+    border: 4px solid rgb(138, 0, 0);
+    border-radius: 37px;
+    width: 77px;
+    height: 77px;
+  }
+  .madeUs {
+    position: absolute;
+    top: 0;
+    left: 13px;
+    letter-spacing: 0.12px;
+    line-height: 10px;
+    font-weight: 600;
+  }
+  .madeUsWrapper {
+    width: 57px;
+    position: relative;
+    height: 16px;
+    overflow: hidden;
+    flex-shrink: 0;
+  }
+  .avatarName,
+  .story {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .avatarName {
+    overflow: hidden;
+    flex-direction: row;
+}
+.story {
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+.storys {
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 50px;
+  display: flex;
+  height: 110px;
+  width: 100%;
+  position: absolute;
+  top: 267px;
+  left: 0;
+  flex-direction: row;
+  text-align: center;
+}
+
+.buttonIcon {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.posts3 {
+  position: relative;
+  line-height: 18px;
+  text-transform: uppercase;
+  float: left;
+  display: flex;
+  flex-direction: flex-start;
+}
+.buttonTitle {
+  flex-direction: row;
+}
+.button5,
+.buttonTitle {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.button5 {
+  flex-direction: column;
+  flex-direction: row;
+  align-items: center;
+  gap: 10px;
+}
+.posts4 {
+  position: relative;
+  line-height: 18px;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+.toogle1 {
+    align-items: flex-start;
+  justify-content: flex-start;
+  position: absolute;
+  left: calc(50% - 173px);
+  display: flex;
+  flex-direction: row;
+  gap: 130px;
+  align-items: center;
+  margin-top: 10px;
+}
+.toogle {
+  position: absolute;
+  top: 441px;
+  left: 0;
+  width: 920px;
+  height: 53px;
+  color: gray;
+  border-top: 1px solid white;
+  align-items: center;
+}
+.userPosts {
+  position: absolute;
+  left: 0;
+  height: 293px;
+  top: 494px;
+  height: 1898px;
+  align-items: center;
+  justify-content: center;
+}
+.postImage {
+  width: 220px;
+  height: 220px;
+  margin: 5px;
+}
+.modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.formBorder, .formBorder2 {
+  width: 500px;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+  align-items: center;
+  border-radius: 20px;
+}
+.formBorder {
+  height: 400px;
+}
+.formBorder2 {
+  height: 700px;
+}
+.titleForm {
+  margin: 20px;
+  width: 90%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.editForm {
+  width: 95%;
+  display: flex;
+  justify-content: left;
+  flex-direction: column;
+}
+.formInput {
+  width: 95%;
+  height: 50px;
+  margin: 5px;
+  padding-left: 10px;
+  border-radius: 15px;
+  font-size: 20px;
+}
+.btnSave {
+  display: flex;
+  justify-content: right;
+  margin: 10px;
+}
+.btnClose {
+  cursor: pointer;
+}
+.count {
+  width: auto;
+  cursor: pointer;
+  display: flex;
+  position: relative;
+  flex-direction: row;
+  align-items: flex-start;
+  align-self: center;
+  justify-content: space-between;
+}
+.gender {
+  margin: 5px;
+}
+.dob {
+  margin: 5px;
+  display: flex;
+  flex-direction: row;
+}
